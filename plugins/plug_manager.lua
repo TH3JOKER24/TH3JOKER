@@ -19,10 +19,10 @@ if not we_sudo(msg) then return "🍥￤هذا الاوامر للمطور ال�
 if (matches[2]=="الكل" or matches[2]=="all") then
 sendMsg(msg.to.id,msg.id_,'🗂*¦* انتضر قليلا سوف يتم ارسالك كل الملفات📢','md')
 for k, v in pairs(plugins_names()) do  
-sendDocument(msg.to.id, msg.id_,0, 1, nil, "./plugins/"..string.match (v, "(.*)%.lua") ..".lua", '🗂:آلمـلف مـقدم مـن قنا‏‏هہ الجوكر ¦ֆ \n📡¦ تابع قناة السورس @llDEV1ll\n👨🏽‍🔧', dl_cb, nil) end  else
+sendDocument(msg.to.id, msg.id_,0, 1, nil, "./plugins/"..string.match (v, "(.*)%.lua") ..".lua", '🗂:آلمـلف مـقدم مـن قنا‏‏هہ الجوكر ¦ֆ \n📡¦ تابع قناة السورس @llJOKERll\n👨🏽‍🔧', dl_cb, nil) end  else
 if not plugin_exists(matches[2]) then 
 return '🗂*¦* لا يوجد ملف بهذا الاسم .\n\n'
-else sendDocument(msg.to.id, msg.id_,0,1,nil,"./plugins/"..matches[2]..".lua",'🗂¦ آلمـلف مـقدم مـن قنآ‏‏هہ الجوكر ¦ֆ \n📡¦ تابع قناة السورس @llDEV1ll\n👨🏽‍🔧', dl_cb, nil)
+else sendDocument(msg.to.id, msg.id_,0,1,nil,"./plugins/"..matches[2]..".lua",'🗂¦ آلمـلف مـقدم مـن قنآ‏‏هہ الجوكر ¦ֆ \n📡¦ تابع قناة السورس @llJOKERll\n👨🏽‍🔧', dl_cb, nil)
 end end end
 if (matches[1] == "dp" or matches[1] == "حذف ملف")  and matches[2] and is_sudo(msg) then 
 if not we_sudo(msg) then return "🍥￤هذا الاوامر للمطور الاساسي فقط 🛠" end
