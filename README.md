@@ -20,7 +20,7 @@
 
 # <p align="center"> كود تنصيب السورس 🖇
 
-<br>` git clone https://github.com/TH3BS/TH3JOKER.git;cd TH3JOKER;chmod +x ins;./ins `<br>
+<br>` git clone https://github.com/TH3JOKER24/TH3JOKER.git;cd TH3JOKER;chmod +x ins;./ins `<br>
 
 
 # <p align="center"> بعد انتهاء عمليه تثبيت السورس 🚸
@@ -35,7 +35,7 @@
  <p align="center"> :: كود تشغيل السورس | لتشغيل السورس يدوي 📛
  
 افتح ترمنال جديد ثم تدخل الكود الاتي <br>
- <br>  `./BOSS/run`
+ <br>  `./TH3JOKER/run`
 
 #  💬¦ للمشاكل والاسفسار والاقتراحات :
   
