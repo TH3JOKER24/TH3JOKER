@@ -1,6 +1,6 @@
 --[[
 << تم برمجه وكتابه السورس من قبل مطورين >>
-<<         @AL_RAKN  \  @TH3LEDR          >>
+<<         @LO_RD  \  @TH3LEDR          >>
 ]]
 function run(msg, matches)
 if msg.to.type == 'channel' and redis:get(boss..'group:add'..msg.to.id) then
