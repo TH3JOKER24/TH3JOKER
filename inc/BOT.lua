@@ -1,6 +1,6 @@
 --[[
 << تم برمجه وكتابه السورس من قبل مطورين >>
-<<         @AL_RAKN  \  @TH3LEDR          >>
+<<         @BLCON  \  @TH3BOSS          >>
 ]] 
 function load_proc()
 loadfile('./inc/functions.lua')()
@@ -42,7 +42,7 @@ io.write('\n\27[1;33m￤ادخل معرف المطور ↓  \n￤Enter your USER
 SUDO_USER = io.read()
 if SUDO_USER ~= '' then
 if string.match(SUDO_USER, '@[%a%d_]') then
-local url , res = https.request('https://blcon.tk/GetID/?User='..SUDO_USER)
+local url , res = https.request('https://th3boss.ga/GetID/?User='..SUDO_USER)
 if res ~= 200 then
 print('\n\27[1;31m￤ Conect is Failed !\n￤ حدث خطأ في الاتصال !')
 create_config()
@@ -172,8 +172,8 @@ print('\27[0;33m>>'..[[
   ███    ███ ███    ███    ▄█    ███    ▄█    ███ 
 ▄█████████▀   ▀██████▀   ▄████████▀   ▄████████▀  
                                                   
-]]..'\27[0;31m'..[[¦ Dev : @TH3LEDR]]..'\27[m\27[0;32m\n\n\027[0;32m'   
-..'\27[0;31m'..[[¦ Dev : @llJOKERll]]..'\27[m\27[0;32m\n\n\027[0;32m'   
+]]..'\27[0;31m'..[[¦ Dev : @BLCON]]..'\27[m\27[0;32m\n\n\027[0;32m'   
+..'\27[0;31m'..[[¦ Dev : @TH3BS]]..'\27[m\27[0;32m\n\n\027[0;32m'   
 ..'¦ TOKEN_BOT: \27[1;34m'..info.TOKEN..'\027[0;32m\n'
 ..'¦ USER__BOT: \27[1;34m@'..TGO.result.username..'\027[0;32m\n'
 ..'¦ IS_ID_BOT: \27[1;34m'..TGO.result.id..'\027[0;32m\n'
